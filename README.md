@@ -15,6 +15,8 @@ They're working on making their environments more stable. But for the timebeing,
 [Install Pixi](https://pixi.prefix.dev/dev/installation/) if you haven't already.
 
 ```bash
+git clone https://github.com/VeckoTheGecko/pythia-foundations-xarray
+# cd into the cloned folder
 pixi install
 pixi run jupyter lab
 ```
