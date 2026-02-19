@@ -1,0 +1,28 @@
+[workspace]
+authors = ["Vecko <36369090+VeckoTheGecko@users.noreply.github.com>"]
+channels = ["conda-forge"]
+name = "pythia-book-dev"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+cartopy = "*"
+jupyterlab = "*"
+matplotlib = "*"
+nc-time-axis = "*"
+netcdf4 = "*"
+numpy = "*"
+pre-commit = "*"
+dask = "*"
+pyproj = "*"
+pythia-datasets = "*"
+python = "*"
+scipy = "*"
+ffmpeg = "*"
+xarray = "*"
+python-graphviz = "*"
+graphviz = "*"
+mystmd = ">=1.6.0"
+jupyterlab-myst = "*"
