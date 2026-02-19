@@ -12,6 +12,8 @@ They're working on making their environments more stable. But for the timebeing,
 
 ## Getting started
 
+[Install Pixi](https://pixi.prefix.dev/dev/installation/) if you haven't already.
+
 ```bash
 pixi install
 pixi run jupyter lab
