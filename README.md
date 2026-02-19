@@ -8,7 +8,7 @@ ModuleNotFoundError: No module named 'pkg_resources'
 
 This is due to updates in dependencies (in this case, Python itself) that caused the notebook to break.
 
-They're working on making their environments more stable. But for the timebeing, there's this repo that creates a working environment "as if its 2023" using Pixi[^1] so we can do the xarray talk. The vast majority of things will be the same if you're using the latest Xarray.
+They're working on making their environments more stable. But for the timebeing, there's this repo that creates a working environment "as if its 2023" using Pixi so we can do the xarray talk. The vast majority of things will be the same if you're using the latest Xarray.
 
 ## Getting started
 
