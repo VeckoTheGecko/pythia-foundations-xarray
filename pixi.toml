@@ -4,6 +4,7 @@ channels = ["conda-forge"]
 name = "pythia-book-dev"
 platforms = ["osx-arm64"]
 version = "0.1.0"
+exclude-newer = "2023-02-01"
 
 [tasks]
 

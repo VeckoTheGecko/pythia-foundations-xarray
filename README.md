@@ -15,8 +15,27 @@ pixi install
 pixi run jupyter
 ```
 
-## How was the environment created?
+## How was the working environment created?
 
-```
+```bash
 pixi init --import environment.yaml
 ```
+
+Edit the `pixi.toml` with
+
+```diff
+diff --git a/pixi.toml b/pixi.toml
+index 59ed295..966e5ef 100644
+--- a/pixi.toml
++++ b/pixi.toml
+@@ -4,6 +4,7 @@ channels = ["conda-forge"]
+ name = "pythia-book-dev"
+ platforms = ["osx-arm64"]
+ version = "0.1.0"
++exclude-newer = "2023-02-01"
+ 
+ [tasks]
+ 
+```
+
+Done! We're off to the races
