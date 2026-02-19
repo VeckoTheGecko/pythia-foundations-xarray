@@ -1,6 +1,6 @@
 # Xarray Pythia Foundations
 
-On 19 Feb 2026 the notebook at Pythia Foundations was broken with the message:
+On 19 Feb 2026 the ["Computations and Masks with Xarray" notebook](https://foundations.projectpythia.org/core/xarray/computation-masking/) in [Pythia Foundations](https://foundations.projectpythia.org/) was broken with the message:
 
 ```
 ModuleNotFoundError: No module named 'pkg_resources'
